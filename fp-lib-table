@@ -9,4 +9,6 @@
   (lib (name "ADS124S08IRHBR")(type "KiCad")(uri "${KIPRJMOD}/ADS124S08IRHBR")(options "")(descr ""))
   (lib (name "VariegatedCoffeeLogo")(type "KiCad")(uri "${KIPRJMOD}/VariegatedCoffeeLogo.pretty")(options "")(descr ""))
   (lib (name "HugeConnector")(type "KiCad")(uri "${KIPRJMOD}/HugeConnector.pretty")(options "")(descr ""))
+  (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/RP2350.pretty")(options "")(descr ""))
+  (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/ul_USB2422/footprints.pretty")(options "")(descr ""))
 )
