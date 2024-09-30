@@ -540,7 +540,6 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+5VA": "LV_PWR_DIST",
       "CN12": "LV_PWR_DIST",
       "CN12_HighI": "LV_PWR_DIST",
       "CN12_VCC": "LV_PWR_DIST",

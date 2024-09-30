@@ -11,4 +11,5 @@
   (lib (name "HugeConnector")(type "KiCad")(uri "${KIPRJMOD}/HugeConnector.pretty")(options "")(descr ""))
   (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/RP2350.pretty")(options "")(descr ""))
   (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/ul_USB2422/footprints.pretty")(options "")(descr ""))
+  (lib (name "ADM7170ACPZ-1")(type "KiCad")(uri "${KIPRJMOD}/ADM7170ACPZ-1")(options "")(descr ""))
 )

@@ -7,4 +7,5 @@
   (lib (name "HugeConnector")(type "KiCad")(uri "${KIPRJMOD}/HugeConnector.pretty/HugeConnector.kicad_sym")(options "")(descr ""))
   (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/RP2350.pretty/RP2350.kicad_sym")(options "")(descr ""))
   (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/ul_USB2422/2024-08-09_05-18-04.kicad_sym")(options "")(descr ""))
+  (lib (name "ADM7170ACPZ-1.8-R7")(type "KiCad")(uri "${KIPRJMOD}/ADM7170ACPZ-1/ADM7170ACPZ-1.8-R7.kicad_sym")(options "")(descr ""))
 )
