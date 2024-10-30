@@ -12,4 +12,5 @@
   (lib (name "RP2350")(type "KiCad")(uri "${KIPRJMOD}/RP2350.pretty")(options "")(descr ""))
   (lib (name "USB2422")(type "KiCad")(uri "${KIPRJMOD}/ul_USB2422/footprints.pretty")(options "")(descr ""))
   (lib (name "ADM7170ACPZ-1")(type "KiCad")(uri "${KIPRJMOD}/ADM7170ACPZ-1")(options "")(descr ""))
+  (lib (name "BM03B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM03B-SRSS-TB_LF__SN_")(options "")(descr ""))
 )
