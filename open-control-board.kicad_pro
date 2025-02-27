@@ -540,27 +540,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "CN12": "LV_PWR_DIST",
-      "CN12_HighI": "LV_PWR_DIST",
-      "CN12_VCC": "LV_PWR_DIST",
-      "CN13": "LV_PWR_DIST",
-      "CN13_HighI": "LV_PWR_DIST",
-      "CN13_VCC": "LV_PWR_DIST",
-      "CN1_UART_VCC": "LV_PWR_DIST",
-      "Net-(CN1-Pin_1)": "12V",
-      "Net-(CN1-Pin_5)": "LV_PWR_DIST",
-      "Net-(JP16-C)": "12V_Thin",
-      "Net-(JP4-C)": "12V_Thin",
-      "Net-(JP5-C)": "12V_Thin",
-      "Net-(JP6-C)": "12V_Thin",
-      "Net-(Q20A-D1)": "Default",
-      "VOUT_1": "12V_Thin",
-      "VOUT_2": "12V_Thin",
-      "VOUT_2_GATE": "Default",
-      "VOUT_3": "12V_Thin",
-      "VOUT_3_GATE": "Default",
-      "VOUT_4": "12V_Thin",
-      "VOUT_4_GATE": "Default"
+      "Net-(U4-VREG_AVDD)": "LV_PWR_DIST"
     },
     "netclass_patterns": [
       {
@@ -602,6 +582,14 @@
       {
         "netclass": "12V_Thin",
         "pattern": "VIN"
+      },
+      {
+        "netclass": "LV_PWR_DIST",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "LV_PWR_DIST",
+        "pattern": "+5VA"
       }
     ]
   },
