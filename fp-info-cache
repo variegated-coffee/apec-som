@@ -1,4 +1,4 @@
-38278538113219535
+38302785892889685
 ADM7170ACPZ-1
 SON50P300X300X80-9N
 
@@ -13,6 +13,27 @@ ADS124S08IRHBR
 0
 38
 34
+APEC_SoM
+APEC_SoM_SMD
+
+
+0
+112
+112
+APEC_SoM
+APEC_SoM_SMDTHT
+
+
+0
+224
+112
+APEC_SoM
+APEC_SoM_THT
+
+
+0
+112
+112
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6346,8 +6367,15 @@ APEC_SoM_SMD
 
 
 0
-120
-120
+112
+112
+CastellatedEdges
+Connector_Edge_1.27mm_20P
+
+
+0
+40
+20
 CastellatedEdges
 Connector_Edge_1.27mm_24P
 
@@ -149190,6 +149218,34 @@ QFN-80_EP_10x10_Pitch0.4mm
 0
 112
 81
+RP2350_80QFN_minimal
+C_0402_1005Metric_small_pads
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+RP2350_80QFN_minimal
+L_pol_2016
+Inductor with Polarity Marking 2016
+
+0
+2
+2
+RP2350_80QFN_minimal
+RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias
+
+
+0
+102
+81
+RP2350_80QFN_minimal
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -158430,6 +158486,27 @@ SON50P300X200X60-9N
 0
 9
 9
+ul_APS6404L-SQRH-ZR
+USON-8L_3X2_APY
+
+APS6404L-SQRH-ZR 
+0
+9
+9
+ul_APS6404L-SQRH-ZR
+USON-8L_3X2_APY-L
+
+APS6404L-SQRH-ZR 
+0
+9
+9
+ul_APS6404L-SQRH-ZR
+USON-8L_3X2_APY-M
+
+APS6404L-SQRH-ZR 
+0
+9
+9
 ul_PTS815-SJM-250-SMTR-LFS
 SW4_PTS815 SJM 250 SMTR LFS_CNK
 
@@ -158455,6 +158532,27 @@ ul_W25Q16JVUXIQ
 W25Q16JVUXIQ_WIN-M
 
 W25Q16JVUXIQ 
+0
+9
+9
+ul_W25Q64JVXGIQ-TR
+DFN_XGIQ TR_WIN
+
+W25Q64JVXGIQ TR 
+0
+9
+9
+ul_W25Q64JVXGIQ-TR
+DFN_XGIQ TR_WIN-L
+
+W25Q64JVXGIQ TR 
+0
+9
+9
+ul_W25Q64JVXGIQ-TR
+DFN_XGIQ TR_WIN-M
+
+W25Q64JVXGIQ TR 
 0
 9
 9

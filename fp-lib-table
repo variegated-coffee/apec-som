@@ -14,4 +14,8 @@
   (lib (name "ADM7170ACPZ-1")(type "KiCad")(uri "${KIPRJMOD}/ADM7170ACPZ-1")(options "")(descr ""))
   (lib (name "BM03B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM03B-SRSS-TB_LF__SN_")(options "")(descr ""))
   (lib (name "CastellatedEdges")(type "KiCad")(uri "${KIPRJMOD}/CastellatedEdges.pretty")(options "")(descr ""))
+  (lib (name "ul_W25Q64JVXGIQ-TR")(type "KiCad")(uri "${KIPRJMOD}/ul_W25Q64JVXGIQ-TR.pretty")(options "")(descr ""))
+  (lib (name "ul_APS6404L-SQRH-ZR")(type "KiCad")(uri "${KIPRJMOD}/ul_APS6404L-SQRH-ZR.pretty")(options "")(descr ""))
+  (lib (name "RP2350_80QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_80QFN_minimal.pretty")(options "")(descr ""))
+  (lib (name "APEC_SoM")(type "KiCad")(uri "${KIPRJMOD}/APEC_SoM.pretty")(options "")(descr ""))
 )

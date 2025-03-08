@@ -519,6 +519,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.127,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.127,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "HSTX",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.09,
+        "via_diameter": 0.3,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.18,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -540,7 +557,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(U4-VREG_AVDD)": "LV_PWR_DIST"
+      "Net-(U4-VREG_AVDD)": "LV_PWR_DIST",
+      "RP_GP12": "HSTX",
+      "RP_GP13": "HSTX",
+      "RP_GP14": "HSTX",
+      "RP_GP15": "HSTX",
+      "RP_GP16": "HSTX",
+      "RP_GP17": "HSTX",
+      "RP_GP18": "HSTX",
+      "RP_GP19": "HSTX"
     },
     "netclass_patterns": [
       {
