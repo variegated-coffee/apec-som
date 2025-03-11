@@ -11,4 +11,5 @@
   (lib (name "BM03B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM03B-SRSS-TB_LF__SN_/BM03B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "FE1-1s-QFN24")(type "KiCad")(uri "${KIPRJMOD}/FE1-1s-QFN24.kicad_sym")(options "")(descr ""))
   (lib (name "APEC_SoM")(type "KiCad")(uri "${KIPRJMOD}/APEC_SoM.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.kicad_sym")(options "")(descr ""))
 )
