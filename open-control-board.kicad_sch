@@ -31344,10 +31344,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "73a80fad-87ce-49ee-8180-547543a13dda")
+			(uuid "73a80fad-87ce-49ee-8180-547543a13ddb")
 		)
 		(pin "2"
-			(uuid "c638bc70-5630-415d-8d2b-fa644f3d36d0")
+			(uuid "c638bc70-5630-415d-8d2b-fa644f3d36d1")
 		)
 		(instances
 			(project ""
