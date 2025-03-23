@@ -1945,7 +1945,7 @@
 			(pin input line
 				(at 91.44 -40.64 180)
 				(length 2.54)
-				(name "ADC_AIN6"
+				(name "ADC_AIN6_REFP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1963,7 +1963,7 @@
 			(pin input line
 				(at 91.44 -43.18 180)
 				(length 2.54)
-				(name "ADC_AIN7"
+				(name "ADC_AIN7_REFN1"
 					(effects
 						(font
 							(size 1.27 1.27)
