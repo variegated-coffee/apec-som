@@ -759,6 +759,10 @@
       {
         "netclass": "LV_PWR_DIST",
         "pattern": "+5VA"
+      },
+      {
+        "netclass": "LV_PWR_DIST",
+        "pattern": "+6V"
       }
     ]
   },
