@@ -1,4 +1,4 @@
-44489234385477311
+44489236149555459
 ADM7170ACPZ-1
 SON50P300X300X80-9N
 
@@ -6535,8 +6535,8 @@ Connector_Edge_1.27mm_20P
 
 
 0
-40
-20
+36
+18
 CastellatedEdges
 Connector_Edge_1.27mm_24P
 
@@ -6549,8 +6549,8 @@ Connector_Edge_1.27mm_36P
 
 
 0
-72
-36
+68
+34
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -68940,7 +68940,7 @@ DFN8_3X3-0P65_506DB-A_OSI
 
 NCP59800BMNADJTAG 
 0
-9
+13
 9
 NCP59800
 DFN8_3X3-0P65_506DB-A_OSI-L
