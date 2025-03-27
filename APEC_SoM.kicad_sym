@@ -790,10 +790,10 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 20.32 8.89 270)
 				(length 2.54)
-				(name "GND"
+				(name "RP2350_GP15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -829,7 +829,7 @@
 			(pin bidirectional line
 				(at 22.86 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP15"
+				(name "RP2350_GP14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -865,7 +865,7 @@
 			(pin bidirectional line
 				(at 25.4 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP14"
+				(name "RP2350_GP13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -901,7 +901,7 @@
 			(pin bidirectional line
 				(at 27.94 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP13"
+				(name "RP2350_GP12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -937,7 +937,7 @@
 			(pin bidirectional line
 				(at 30.48 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP12"
+				(name "RP2350_GP7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			(pin bidirectional line
 				(at 33.02 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP7"
+				(name "RP2350_GP6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1009,7 +1009,7 @@
 			(pin bidirectional line
 				(at 35.56 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP6"
+				(name "RP2350_GP5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1045,7 +1045,7 @@
 			(pin bidirectional line
 				(at 38.1 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP5"
+				(name "RP2350_GP4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1081,7 +1081,7 @@
 			(pin bidirectional line
 				(at 40.64 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP4"
+				(name "RP2350_GP3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1117,7 +1117,7 @@
 			(pin bidirectional line
 				(at 43.18 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP3"
+				(name "RP2350_GP2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1153,7 +1153,7 @@
 			(pin bidirectional line
 				(at 45.72 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP2"
+				(name "RP2350_GP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1186,10 +1186,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 48.26 8.89 270)
 				(length 2.54)
-				(name "RP2350_GP1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
