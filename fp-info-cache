@@ -1,4 +1,4 @@
-44489236342647859
+44491611224346916
 ADM7170ACPZ-1
 SON50P300X300X80-9N
 
@@ -25,15 +25,15 @@ APEC_SoM_SMD
 
 
 0
-112
-112
+104
+104
 APEC_SoM
 APEC_SoM_SMDTHT
 
 
 0
-224
-112
+208
+104
 APEC_SoM
 APEC_SoM_THT
 
@@ -41,6 +41,13 @@ APEC_SoM_THT
 0
 112
 112
+APEC_SoM
+Femtoprobe
+
+
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
