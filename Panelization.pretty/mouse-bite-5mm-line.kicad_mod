@@ -1,0 +1,105 @@
+(footprint "mouse-bite-5mm-line"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "mouse-bite-3mm-slot"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9aa04478-9d51-43ea-a20a-d2b90040c775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1f5b4f3f-816d-487b-abda-a791a8d69560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f59c8b41-eaa7-42c7-a3a8-e7adba5724fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b3c6ddd-a9e4-4315-9cb9-d4677fa1d8a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at -2.25 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "678b00a0-affd-4e1f-b271-545d12b097c0")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c1dc6fdc-071b-4fc3-aba3-ef4b96ba4926")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.75 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4d47bbd3-5947-4b3d-a7cb-bc119df0f527")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4d0dfead-fcac-4a5a-9418-d2c67825f74f")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.75 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9027e42a-4ddb-444f-ab20-7a51014ec55e")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "06cf8c7c-4fbe-4ea2-a468-5fd48b2f35ce")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.25 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "16614480-af85-43d1-b45c-5dcbcf01d812")
+	)
+	(embedded_fonts no)
+)

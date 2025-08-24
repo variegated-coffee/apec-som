@@ -39537,7 +39537,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF, 16V, X7S"
+		(property "Value" "1 uF, 16V, X5R"
 			(at 561.3463 651.51 90)
 			(effects
 				(font
@@ -39589,7 +39589,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85923"
+		(property "LCSC" "C335102"
 			(at 561.34 655.32 0)
 			(effects
 				(font

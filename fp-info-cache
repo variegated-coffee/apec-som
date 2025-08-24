@@ -1,4 +1,4 @@
-44491611224346916
+44501792899228557
 ADM7170ACPZ-1
 SON50P300X300X80-9N
 
@@ -43,6 +43,13 @@ APEC_SoM_THT
 112
 APEC_SoM
 Femtoprobe
+
+
+0
+8
+8
+APEC_SoM
+Femtoprobe SMT
 
 
 0
@@ -165906,6 +165913,41 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-5mm-cross
+
+
+0
+0
+0
+Panelization
+mouse-bite-5mm-line
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

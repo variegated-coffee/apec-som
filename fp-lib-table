@@ -21,4 +21,5 @@
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.pretty")(options "")(descr ""))
   (lib (name "TPS65261-1RHBR")(type "KiCad")(uri "${KIPRJMOD}/TPS65261-1RHBR")(options "")(descr ""))
   (lib (name "NCP59800")(type "KiCad")(uri "${KIPRJMOD}/NCP59800.pretty")(options "")(descr ""))
+  (lib (name "Panelization")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty")(options "")(descr ""))
 )
