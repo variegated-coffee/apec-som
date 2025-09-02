@@ -8,4 +8,6 @@
 * Moved analog traces into a stripline layer
 * Changed power supply seqencing from 3V3 -> 6V -> {5V, 5VA} to 3V3 -> {6V, 5V, 5VA}
   * This allows for 5V rail operation (albeit with more noise and lower voltages) when VIN < 6.2V
-* Added rails and V-cuts for ease of manufacturing, and ease of depaneling
+* Added rails and mousebites for ease of manufacturing, and ease of depaneling
+* Increased the capacitance of the 5VA output capacitor (4.7 uF to 10 uF)
+* Added additional output caps for the 3V3 (100 nF), 5V (1 uF) and 6V (100 nF) output rails
