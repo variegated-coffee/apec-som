@@ -27,25 +27,25 @@
 
 ## ESP32-C6
 
-| Peripheral | Assignment              |
-| ---------- | ----------------------- |
-| GPIO0-1    | Pins                    |
-| GPIO2      | RP2350 QSPI SD3 *       |
-| GPIO3      | RP2350 QSPI SD2 *       |
-| GPIO4-6    | Pins (JTAG)             |
-| GPIO7      | Pins (JTAG)             |
-| GPIO8      | 3V3                     |
-| GPIO9      | Pins (Boot mode select) |
-| GPIO12-13  | USB                     |
-| GPIO14     | RP2350 QSPI SD1 *       |
-| GPIO15     | Pins (JTAG select)      |
-| GPIO16-17  | Pins (UART0)            |
-| GPIO18     | RP2350 RTS              |
-| GPIO19     | RP2350 CTS              |
-| GPIO20     | RP2350 RX               |
-| GPIO21     | RP2350 TX               |
-| GPIO22     | RP2350 Bootsel          |
-| GPIO23     | RP2350 EN               |
+| Peripheral | Assignment              | Notes |
+| ---------- | ----------------------- | ----- |
+| GPIO0-1    | Pins                    | |
+| GPIO2      | RP2350 QSPI SD3         | |
+| GPIO3      | RP2350 QSPI SD2         | |
+| GPIO4-6    | Pins / JTAG             | |
+| GPIO7      | Pins / JTAG             | |
+| GPIO8      | 3V3                     | |
+| GPIO9      | Pins / Boot mode select | |
+| GPIO12-13  | USB                     | |
+| GPIO14     | RP2350 QSPI SD1         | |
+| GPIO15     | Pins / JTAG select      | |
+| GPIO16-17  | Pins / UART0            | |
+| GPIO18     | RP2350 RTS              | |
+| GPIO19     | RP2350 CTS              | |
+| GPIO20     | RP2350 RX               | |
+| GPIO21     | RP2350 TX               | |
+| GPIO22     | RP2350 Bootsel          | High means Bootsel is pulled low, i.e. it will restart in USB bootloader mode. |
+| GPIO23     | RP2350 EN               | High means EN is pulled low, i.e. the RP2350 is in reset. |
 
 ### Notes
 

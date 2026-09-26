@@ -55,6 +55,36 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -16.75 -4.5)
+		(end -15.75 -3.75)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bdb6279-f5b2-4ba9-a481-f84dc2ec40af")
+	)
+	(fp_line
+		(start -16.75 -3)
+		(end -16.75 -4.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f71ed73-31a9-4445-9e14-b94d9b0f62e5")
+	)
+	(fp_line
+		(start -15.75 -3.75)
+		(end -16.75 -3)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9af7e920-bd89-4926-a6c9-feb027b5449b")
+	)
+	(fp_line
 		(start -13.9 -4.57)
 		(end -12.69 -4.57)
 		(stroke
@@ -143,16 +173,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b5c4a462-bffb-469c-ac85-b20e21c548a6")
-	)
-	(fp_line
-		(start 8.96 -4.57)
-		(end 10.17 -4.57)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8668b1dd-2a75-4579-9af2-dbdadb7f53db")
 	)
 	(fp_line
 		(start 10.17 -5.24)
@@ -663,6 +683,45 @@
 		)
 		(layer "F.Fab")
 		(uuid "b919a6c7-b3c5-4e23-948e-b0acdc60523b")
+	)
+	(fp_text user "SWD"
+		(at 15.25 0.75 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "78adb46b-ba1d-48e0-904b-4d2a785baf23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "UART"
+		(at 15.25 -4.25 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b798a30c-c079-46be-b50c-884257356891")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "USB"
+		(at -17 -1.25 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cb9b2449-9759-451a-a16f-a7ba23b35d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 11.5 0 90)
