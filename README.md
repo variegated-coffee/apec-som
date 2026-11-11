@@ -2,7 +2,7 @@
 
 Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility. 
 
-The APEC SoM is a 108 pin, 1.27 mm pitch compact castellated module containing pretty much everything you need to build an espresso machine controller. The module is intended to be paired with a machine specific carrier board, containing things like connectors, FETs and passives.
+The APEC SoM is a 104 pin, 1.27 mm pitch compact castellated module containing pretty much everything you need to build an espresso machine controller. The module is intended to be paired with a machine specific carrier board, containing things like connectors, FETs and passives.
 
 ## High-level features
 
@@ -20,8 +20,8 @@ The APEC SoM is a 108 pin, 1.27 mm pitch compact castellated module containing p
 
 ## Project status
 
-The current hardware revision is EV2. This is an engineering validation revision. It hasn't been manufactured yet, and you shouldn't be the first one to do it.
+The current hardware revision is R1A. It hasn't been manufactured yet, and you shouldn't be the first one to do it. The earlier engineering validation revisions, EV1 and EV2, have been manufactured; [CHANGELOG.md](CHANGELOG.md) lists what changed between revisions.
 
 ## Disclaimer
 
-Anything you do with this, you do at your own risk. This hardware hasn't even been manufactured by it's creator yet, and it's definitiely not certified. Your machine uses both line voltage power, high pressured hot water, steam and other dangerous components. You *really* shouldn't be using this yet; in fact, you shouldn't even consider it. Risks include but are not limited to, damaging your machine, personal injury, property damage and summoning dead Cthulhu from his sleep at R'lyeh.
+Anything you do with this, you do at your own risk. The current revision hasn't even been manufactured by its creator yet, and it's definitely not certified. Your machine uses both line voltage power, high pressured hot water, steam and other dangerous components. You *really* shouldn't be using this yet; in fact, you shouldn't even consider it. Risks include but are not limited to, damaging your machine, personal injury, property damage and summoning dead Cthulhu from his sleep at R'lyeh.
