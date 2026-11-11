@@ -1,0 +1,3 @@
+`SON50P300X300X80-9N.kicad_mod`, the footprint for the ADM7170ACPZ (U13), was downloaded from SnapMagic (formerly SnapEDA): https://www.snapeda.com/parts/ADM7170ACPZ-1.8-R7/Analog+Devices/view-part/
+
+It is licensed under the Creative Commons CC BY-SA 4.0 License (https://creativecommons.org/licenses/by-sa/4.0/) with SnapMagic's Design Exception 1.0, and is subject to SnapMagic's terms of service (https://www.snapeda.com/about/terms/). Changes made in this repository: the exposed pad is renumbered from 9 to EP, and the file is re-saved in a newer KiCad format.

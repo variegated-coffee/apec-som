@@ -86,7 +86,7 @@ Things a carrier-board designer or firmware author needs to know when using the 
 
 Generated from the R1A schematic; net names match the schematic. Pin 1 (ESP32_GP0) is marked on the module, and the numbering runs clockwise viewed from the top. There are no castellations at the board corners, so the 104 pins are numbered without gaps. The module schematic splits them into four connector symbols, one per edge.
 
-For carrier boards, use the `APEC_SoM` symbol in `APEC_SoM.kicad_sym` and one of the footprints in `APEC_SoM.pretty`: `APEC_SoM_SMD`, `APEC_SoM_SMDTHT`, `APEC_SoM_THT` or `APEC_SoM_FlexyPin`. They use the same numbering as these tables. Symbols drawn from a copy of `APEC_SoM.kicad_sym` older than R1A have pins 35–40 in reverse order; update them from the library and check the wiring on those pins.
+For carrier boards, use the `APEC_SoM` symbol in `APEC_SoM.kicad_sym` and one of the footprints in `APEC_SoM.pretty`: `APEC_SoM_SMD`, `APEC_SoM_SMDTHT`, `APEC_SoM_THT` or `APEC_SoM_FlexyPin`. They use the same numbering as these tables. `APEC_SoM.pretty` also holds a 3D model of the module, `APEC_SoM.step` and `APEC_SoM.stl`. It was generated from EV2; R1A differs only in a few small parts. Symbols drawn from a copy of `APEC_SoM.kicad_sym` older than R1A have pins 35–40 in reverse order; update them from the library and check the wiring on those pins.
 
 ### Pins 1–34: Top edge, left to right (J2 on the module schematic)
 
