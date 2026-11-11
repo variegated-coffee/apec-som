@@ -29,3 +29,5 @@
 * Added thermal vias to the U13 (ADM7170) exposed pad
 * Renumbered the castellations 1-104, clockwise from pin 1 (ESP32_GP0) viewed from the top, and removed the corner pins (which have no castellation) from the J1/J2/J6/J7 symbols
 * Fixed the carrier-side APEC_SoM symbol: pins 35-40 (C_SHIELD_2, CIN4, CIN3, CIN2, CIN1, C_SHIELD_1) were in reverse order
+* All vias are now specified as epoxy filled and capped, since many SMD pads have vias in them
+* The RP2350 thermal vias are now covered by solder mask on the bottom side

@@ -49,7 +49,7 @@ The board file is already a complete 70 × 70 mm panel. Order it as a single boa
 
 **Castellations.** Each of the 104 castellations has a 0.65 mm plated hole centred on the module edge, which becomes a plated half-hole when the slot is milled. A second 0.65 mm plated hole sits 0.77 mm further in, in the same copper land. Ask the fab for castellated (plated half) holes. The pads aren't marked as castellated in the design files, so the Gerbers won't flag them on their own.
 
-**Via-in-pad.** 153 of the 478 copper SMD pads, on 70 parts, have a via inside the pad. These include 0201 passives, the ESP32-C6 module, the flash and PSRAM, and several exposed pads. Without filling and capping, solder wicks down these vias and leaves joints starved or open. Order the vias epoxy filled and capped (at JLCPCB: "Via Covering: Epoxy Filled & Capped").
+**Via-in-pad.** 153 of the 478 copper SMD pads, on 70 parts, have a via inside the pad. These include 0201 passives, the ESP32-C6 module, the flash and PSRAM, and several exposed pads. Without filling and capping, solder wicks down these vias and leaves joints starved or open. The board must therefore be manufactured with epoxy filled and capped vias (at JLCPCB: "Via Covering: Epoxy Filled & Capped"). The board file marks every via that way.
 
 ## Assembly
 
@@ -64,17 +64,16 @@ The board file is already a complete 70 × 70 mm panel. Order it as a single boa
   * FE1.1s (U5): QFN-24
   * Flash, PSRAM and LDOs: DFN/USON/SON
 * **Assembly type:** Standard.
-* **Production files:** generated with the JLCPCB Tools plugin for KiCad. Its output (`jlcpcb/`) is not in git.
+* **Production files:** generated with the Fabrication Toolkit plugin for KiCad, which writes them to `production/` (Gerber zip, BOM, placement file, IPC netlist). Its settings are in `fabrication-toolkit-options.json`.
   * The plugin takes LCSC numbers from the footprints on the PCB. Sync them from the schematic first; see the checklist below.
 * **Rotations:** check the placement preview for rotation errors before confirming the order, especially U4, U7, U1/U3, the crystals and the SOT parts.
 
 ## Before ordering
 
-1. **Sync part numbers:** in the PCB editor, run Tools → Update PCB from Schematic with "Update footprint fields" enabled. At the time of writing, 41 footprints on the PCB lack the `LCSC` field their schematic symbols have.
-2. **Via protection:** in Board Setup, set via protection to filled and capped. The board file currently says tented only, so the outputs don't show the via-in-pad treatment.
-3. **DRC:** refill all zones and run DRC. It should report no errors and no unconnected items.
-4. **Outputs:** generate Gerbers, drill files, BOM and placement file. Check the castellation half-holes and the milled slots in a Gerber viewer before uploading.
-5. **Order notes:** mention castellated holes and filled-and-capped vias in the order notes.
+1. **Sync part numbers:** in the PCB editor, run Tools → Update PCB from Schematic with "Update footprint fields" enabled, so the LCSC numbers on the footprints match the schematic.
+2. **DRC:** refill all zones and run DRC. It should report no errors and no unconnected items.
+3. **Outputs:** generate the production files. Check the castellation half-holes and the milled slots in a Gerber viewer before uploading.
+4. **Order notes:** mention castellated holes and filled-and-capped vias in the order notes.
 
 ## Depaneling
 
