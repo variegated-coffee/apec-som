@@ -529,7 +529,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "open-control-board.kicad_pro",
+    "filename": "apec-som.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1059,8 +1059,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "open-control-board.kicad_sch",
-        "name": "open-control-board",
+        "filename": "apec-som.kicad_sch",
+        "name": "apec-som",
         "uuid": "c7c8c763-88fa-419b-8f4a-ebade330cc39"
       }
     ],
@@ -1070,7 +1070,7 @@
   "sheets": [
     [
       "c7c8c763-88fa-419b-8f4a-ebade330cc39",
-      "open-control-board"
+      "apec-som"
     ]
   ],
   "text_variables": {},

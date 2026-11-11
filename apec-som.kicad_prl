@@ -57,7 +57,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "open-control-board.kicad_prl",
+    "filename": "apec-som.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

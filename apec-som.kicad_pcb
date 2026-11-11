@@ -237,7 +237,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/e2ee7cb9-dff9-4554-ae58-c08c381615c3")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -373,7 +373,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8e69b583-24b4-4f2d-b8b2-fe39b33b256b")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -538,7 +538,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e861899d-5b74-4634-a1c8-8d71218a7e14")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -704,7 +704,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/75f749ab-fa08-4855-8be8-7a03917fa71c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -883,7 +883,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/103374e0-f825-4482-a2ea-eeeb396e4b4b")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1048,7 +1048,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aab9e828-9c65-4636-a450-7abc3b99c630")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1227,7 +1227,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5165486f-a3c7-40b0-b33b-f384c88fdd06")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1395,7 +1395,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ec1a3952-6d20-4146-b95e-96507deee577")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1563,7 +1563,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/573daf5e-dbc9-4e1f-9c76-c508f76f11d9")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1731,7 +1731,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f16a302f-2f04-4676-a140-24c210b9a15c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1876,7 +1876,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/5529195a-11cb-48bb-aed9-d3e2c29b3078")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2988,7 +2988,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/716a2099-04f7-4185-912a-14fe6c9b81ef")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3146,7 +3146,7 @@
 		)
 		(path "/85fd0ff5-069a-4907-9c25-fde794eb2309")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3357,7 +3357,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/8c8a8517-3a5c-41f8-b705-37610b0d179e")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3489,7 +3489,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/75aa05e9-07bc-4eee-a819-edd8a97353a4")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3669,7 +3669,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cff9e5aa-0aa3-4108-8127-823c5a53f838")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3837,7 +3837,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4776cbac-7c07-4651-878b-e2ff9e1aba8a")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4021,7 +4021,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a314699c-ffb6-4799-99c9-56fa111ee850")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4166,7 +4166,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/69d2264d-2cdc-40ea-a501-78f16db1cbde")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4809,7 +4809,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8fb7e40f-3ffb-450a-9b21-d9bc2dbf24f9")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4976,7 +4976,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/781fcac5-aef1-4ca9-bb16-ca35bccafed0")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5142,7 +5142,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0abfcb2a-442e-4e84-a420-73a520cfa34f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5310,7 +5310,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/91b3bffc-2e98-406b-97bf-877b63e9caa2")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5480,7 +5480,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6b3124c8-cb86-4902-a2cf-2dbe91db15a4")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5657,7 +5657,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5a2cdbbb-a1c3-4866-8bb2-884c612b8904")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5814,7 +5814,7 @@
 		(property ki_fp_filters "VSSOP*")
 		(path "/abd8c6f8-136f-49e1-beeb-440b1053a3fc")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6390,7 +6390,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/342a7640-adcc-47ac-b259-4565feca02b0")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6532,7 +6532,7 @@
 		)
 		(path "/5207e7a6-6850-4aea-a225-7acb98f928b3")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7069,7 +7069,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1b4184df-ba2d-47ae-a87a-1fdf44ea7a03")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7246,7 +7246,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/78cb834f-385d-4e27-916f-9f5c07258f46")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7438,7 +7438,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/749d1f87-7762-4a95-b03d-8692bc2693fa")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7603,7 +7603,13 @@
 		(property ki_fp_filters "TSSOP?8*4.4x3mm*P0.65mm*")
 		(path "/5b83a75f-20a5-4766-9479-1b888644129c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "6" "1" "3" "7" "8" "4" "EP" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7822,7 +7828,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93cd9bcd-c739-4ef9-9ecb-79fbd2b8c7be")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7964,7 +7970,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/2549e4c1-6d55-4c94-aede-b2e950ca4beb")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8104,7 +8110,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f5a1879a-2c95-4e4d-ab90-763c6338bea7")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8283,7 +8289,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/17537fbc-dd1b-429d-8d6f-67213db5225f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8435,7 +8441,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/a4230cba-d334-43dd-8ae4-a20d85a374bc")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8567,7 +8573,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ffed862d-4f6c-4fd8-ae18-9919babd0685")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8735,7 +8741,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ad82f0af-c47a-402f-9f67-64b2836d1f70")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8903,7 +8909,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f1b6d745-bbd3-4492-b3e8-2f5365d98d10")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9073,7 +9079,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4ca1a5f8-4c7f-42a5-9c9f-a223f1557b1f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9271,7 +9277,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/41170933-8d47-496c-95c6-5aa2fafef252")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9439,7 +9445,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/424a07c5-1511-491e-8a55-c17d3445791e")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9607,7 +9613,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f37595a2-7068-4c75-90d8-7a49976f569e")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9810,7 +9816,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/69303d89-1ab5-4657-9ad3-4b9f97ede149")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9977,7 +9983,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e177361f-e900-47cc-a3af-35a890a88c07")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10187,7 +10193,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/224bb3f2-5f07-4c06-85c3-6acc3931976d")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10329,7 +10335,7 @@
 		)
 		(path "/af4d30a5-e24b-49ee-a682-e5a5480f3468")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11273,7 +11279,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/bba82a24-32e7-4d01-be34-a626ae16216b")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11444,7 +11450,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/6da76564-b3c0-490c-92f7-2d940031627f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11559,7 +11565,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a52d570e-f817-4b22-b229-8788acb6e7ec")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11732,7 +11738,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0e52900e-58b8-4b93-8800-aa656f0a684c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11905,7 +11911,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bb6ad9b6-5999-4b31-a7ad-5086f35f7aef")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12056,7 +12062,7 @@
 		)
 		(path "/bffc4dc0-387a-4318-8ba2-dd10d4372c40")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12319,7 +12325,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f99bf6e0-e7a7-416c-8c60-cd6050968944")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12474,7 +12480,7 @@
 		)
 		(path "/77eb5260-f8fa-42a4-b7bb-f0c57e2d887f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13375,7 +13381,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/64b8049b-3009-40c8-a889-d015f4a99638")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13549,7 +13555,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b75b92f8-3d84-4d9e-924d-23bfebbf4d70")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13713,7 +13719,13 @@
 		)
 		(path "/00bde6f4-95c0-47e3-91ca-2a62de311597")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "6" "1" "3" "7" "8" "4" "EP" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13970,7 +13982,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9c39f79b-3ebc-456b-bba0-c7c7755ed03d")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14149,7 +14161,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d5cf97db-a6cc-4b78-ac61-e4466d5a8d8f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14317,7 +14329,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/81ba7673-6e6f-41d3-848b-d963079dcbac")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14469,7 +14481,7 @@
 		)
 		(path "/61af872b-36c8-4851-9a34-bd8f4fae5072")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15889,7 +15901,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ce4b683e-85b3-4afd-8b6f-79314286bdb5")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16060,7 +16072,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/39ce8f2b-3f8d-410d-bcfe-bafc81d15b37")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16228,7 +16240,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/212912c0-c333-40a8-a563-1dc8423370e2")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16396,7 +16408,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a45eb4e-0044-4ec6-bb26-ef6c6d83cca5")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16566,7 +16578,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/98bdcf94-1773-4822-95fb-c3cc5e3ead11")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16718,7 +16730,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/da97fe00-8c8f-4cd4-a20a-4830b5690fa7")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16887,7 +16899,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c97d3839-69a1-47a6-bb60-0a2f3c7249a7")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17052,7 +17064,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/6e895b51-53b3-409b-bc2d-e75381eac992")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17251,7 +17263,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1f565b6c-4863-42b6-916b-7212f57b08ac")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17406,7 +17418,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a4d4b57d-3e31-43a0-9156-2775e2b244c4")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17628,7 +17640,7 @@
 		)
 		(path "/b476cdf9-772a-4643-922b-545c9f931212")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17981,7 +17993,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/63208081-7f36-4c3c-a18e-f57198d9ba21")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18123,7 +18135,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/ef2bcc45-113e-423a-8a1d-a9a551f999f3")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18263,7 +18275,7 @@
 		)
 		(path "/0ec86747-7877-429e-b006-dcad051840af")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18908,7 +18920,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2cc76b87-9dc2-4adc-8668-a7a0b97f393f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19204,7 +19216,7 @@
 		)
 		(path "/4687b1c2-508b-40d9-aeb4-b1e1072c67d5")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19501,7 +19513,7 @@
 		)
 		(path "/eb834455-2aec-46a4-8e5c-980baf374dab")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20423,7 +20435,7 @@
 		(property ki_fp_filters "SOT* SG-*")
 		(path "/e25486b0-62d6-48a9-9e77-17bfd48cb9e7")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20863,7 +20875,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4dbd20a9-93d4-4604-a1ed-acdfd7249ad8")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21084,7 +21096,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b79c304a-1eca-4e47-9313-24c5ba735b09")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21252,7 +21264,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/be35eb25-8223-4244-bf53-6fdfd8979f1c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21422,7 +21434,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/310a86a7-285c-43f1-a699-555db8133f4c")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21607,7 +21619,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b2ad3bf9-43f0-445e-9974-8b85bd215bb6")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21780,7 +21792,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bf6163cb-d26b-40b2-a25a-ab3b602dc1f0")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21946,7 +21958,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/60ea3d5f-69da-4f5c-a2e8-7aecf5e4a1d6")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22112,7 +22124,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ebeeb996-dcd5-4006-abb3-478da5b3a31f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22292,7 +22304,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e244147f-a484-4e1a-8f99-cb3d58fa9d35")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22460,7 +22472,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4504f0d7-28fa-4b75-8650-ae1b9b84e2b0")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22628,7 +22640,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/efa2bda3-d19d-4bdc-a3ec-a6ba72806263")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22807,7 +22819,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8422a464-67d5-4694-b48e-8b50f3e4ebf4")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23022,7 +23034,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0d890630-ca69-4b9f-9b1d-4eaed716d596")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23190,7 +23202,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d7866bbd-17fb-4a97-925b-a8c2b0f8a2f8")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23358,7 +23370,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bdd1727e-1c01-4fde-a0a9-85ca573a00b8")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23526,7 +23538,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/041ba3fb-f9dd-4b9b-b4ca-99ea0691a087")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23705,7 +23717,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3639d449-1037-4fa2-b32b-3a70dff50f5b")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23873,7 +23885,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9ec94b9f-bc99-410e-a76a-8152c8a65c6b")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24040,7 +24052,7 @@
 		)
 		(path "/95abbd62-aeff-434f-b2fa-ede7ebfd12f8")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24713,7 +24725,7 @@
 		)
 		(path "/3a2b4219-951a-43da-b483-1bee871d4692")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25287,7 +25299,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e6230df9-7f9a-4bd3-9e3d-452ef682e257")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25455,7 +25467,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9fa907f0-5adc-4d69-b56f-46b354d5e80d")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25623,7 +25635,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4313dc84-260c-4ba8-bf2d-dedad34e2489")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25791,7 +25803,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/732ce556-cf9c-4f0e-b07b-433240b18717")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25945,7 +25957,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/73b4b44f-7fa0-4b23-bb39-06d54d79fa66")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26177,7 +26189,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ef31598b-857a-489e-84c0-e2fde6c42040")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26329,7 +26341,7 @@
 		(property ki_fp_filters "Fiducial*")
 		(path "/9b814b7a-360a-462a-8f7c-c58045774e90")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26473,7 +26485,7 @@
 		(property ki_fp_filters "Texas*MicroSiP*1EP*2.8x3.0mm*P0.65mm*")
 		(path "/33a64d73-7d9a-44a4-a891-083abeabfe7f")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26841,7 +26853,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f05bd8e0-aa2b-4ecb-ac03-c3ff831b3bba")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27011,7 +27023,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3d92e265-c878-4cb9-8155-55048f958c84")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27190,7 +27202,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0890c58a-f2b8-4a2c-97e8-42547012a4e9")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27362,7 +27374,7 @@
 		)
 		(path "/0db66e13-ea1b-4143-b4bd-2daec36ed905")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28139,7 +28151,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/531d1b7c-e6a1-481a-943b-a67aaf0250fe")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28318,7 +28330,7 @@
 		(property ki_fp_filters "Texas*MicroSiP*1EP*2.8x3mm*P0.65mm*")
 		(path "/295f8511-7aa7-441e-9e60-e9352f1d8ca8")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28697,7 +28709,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8a44b048-76f4-4f14-ab0d-4c1133add715")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28845,7 +28857,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/0aaeb7a5-a7eb-4f07-9076-f147c836f5fa")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29001,7 +29013,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b33ae6a6-c8e1-42c9-ab64-92b9764a827d")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29150,7 +29162,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/35ef225d-7937-436e-b25f-5f45483683cd")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29265,7 +29277,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/f4d512a9-607e-4f63-a5d4-4eb38ec78074")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29381,7 +29393,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/1f0590e4-290b-4830-bbd3-619b0105b712")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29966,7 +29978,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/825a0508-22a5-48ab-a9de-be07165b0a54")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30081,7 +30093,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/829c5eea-2f68-4912-84ab-f58fb3758bdb")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30196,7 +30208,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2b6d5ae3-a17a-44b8-852e-3b60ceab261d")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30311,7 +30323,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fd3eb33e-e409-4274-8e00-86dc5da6d3a9")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30426,7 +30438,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/af9b6614-8900-4fc5-971c-45e90244c5c1")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30541,7 +30553,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e7a46cdf-87be-4340-9a69-a9aa107a3c8e")
 		(sheetname "/")
-		(sheetfile "open-control-board.kicad_sch")
+		(sheetfile "apec-som.kicad_sch")
 		(units
 			(unit
 				(name "A")
