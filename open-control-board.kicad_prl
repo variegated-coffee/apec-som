@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 2,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -13,12 +13,13 @@
       "shapes": 1.0,
       "tracks": 0.5299999713897705,
       "vias": 0.44999998807907104,
-      "zones": 0.07999999821186066
+      "zones": 0.14000000059604645
     },
+    "prototype_zone_fills": false,
     "selection_filter": {
       "dimensions": false,
-      "footprints": true,
-      "graphics": true,
+      "footprints": false,
+      "graphics": false,
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
@@ -26,7 +27,7 @@
       "text": false,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -50,6 +51,7 @@
     "zone_display_mode": 0
   },
   "git": {
+    "integration_disabled": false,
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
@@ -114,6 +116,7 @@
     "filter_text": "",
     "group_by_constraint": false,
     "group_by_netclass": false,
+    "show_time_domain_details": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
@@ -124,6 +127,7 @@
     "files": []
   },
   "schematic": {
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,
@@ -131,6 +135,7 @@
       "lockedItems": false,
       "otherItems": true,
       "pins": true,
+      "ruleAreas": true,
       "symbols": true,
       "text": true,
       "wires": true

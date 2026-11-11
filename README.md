@@ -11,7 +11,7 @@ The APEC SoM is a 108 pin, 1.27 mm pitch compact castellated module containing p
 * ADS124S08 ADC
 * FDC1004 Capacitance-to-digital
 * Five different power domains
-  * Vin (6-18V)
+  * Vin (6-17V)
   * 6V
   * 5VD
   * 5VA
