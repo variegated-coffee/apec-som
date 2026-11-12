@@ -21,6 +21,8 @@ The APEC SoM is a 104 pin, 1.27 mm pitch compact castellated module containing p
   * 5VA
   * 3V3
 * 4-port USB 2.0 hub
+  * One port each used for RP2350B and ESP32-C6
+  * Recommendation: Use one of the other ports for a [Femtoprobe](https://github.com/variegated-coffee/femtoprobe)
 
 ## Project status
 
