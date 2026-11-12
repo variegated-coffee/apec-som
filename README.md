@@ -1,5 +1,9 @@
 # All Purpose Espresso Controller System-on-Module
 
+![3D render of the APEC SoM, revision R1A](images/apec-som-r1a.png)
+
+*APEC SoM R1A, rendered in KiCad.*
+
 Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility. 
 
 The APEC SoM is a 104 pin, 1.27 mm pitch compact castellated module containing pretty much everything you need to build an espresso machine controller. The module is intended to be paired with a machine specific carrier board, containing things like connectors, FETs and passives.

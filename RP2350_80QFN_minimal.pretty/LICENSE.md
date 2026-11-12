@@ -2,4 +2,6 @@ The footprints in this directory come from Raspberry Pi's RP2350 minimal design:
 
 The RP2350 symbol in `../RP2350.kicad_sym` is treated as part of the same kit.
 
-Changes made in this repository: the RP2350 footprint's thermal vias are covered by solder mask on the bottom; 3D model paths point to KiCad's standard models; unused footprints and the RP2350A symbol are removed.
+`RP2350_QFN80.step`, the 3D model of the RP2350 package, comes from the same kit and is unmodified.
+
+Changes made in this repository: the RP2350 footprint's thermal vias are covered by solder mask on the bottom, and it uses `RP2350_QFN80.step` as its 3D model; the other footprints' 3D model paths point to KiCad's standard models; unused footprints and the RP2350A symbol are removed.
