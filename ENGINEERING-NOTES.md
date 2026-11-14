@@ -13,7 +13,7 @@ Things a carrier-board designer or firmware author needs to know when using the 
   | +3V3 | 76–77 | TPS82130 buck from VIN | 3 A | Starts first |
   | +6V | 82–83 | TPS82130 buck from VIN | 3 A | Nominally **5.76 V**, not 6.0 V |
   | +5V | 85–86 | NCP59800 LDO from +6V | 1 A | |
-  | +5VA | 50 | ADM7170 LDO from +6V | 500 mA | Also the ADC's analog supply (AVDD); keep carrier loads on it quiet |
+  | +5VA | 50 | ADM7170 LDO from +6V | 500 mA | Also the ADC's analog supply (AVDD). Returns to GNDA (pin 49); keep carrier loads on it quiet |
 
 * **Sequencing:** +3V3 comes up first. +6V, +5V and +5VA are enabled by the +3V3 power-good signal.
 * **Low input voltage:** below about 6.2 V the +6V buck runs at 100 % duty cycle and +6V tracks VIN. +5V and +5VA keep working but with less headroom and more noise.
@@ -21,7 +21,12 @@ Things a carrier-board designer or firmware author needs to know when using the 
 
 ## Grounding and carrier layout
 
-* There are nine GND pins: 5, 24, 49, 57, 74, 90, 93, 96 and 97. Connect all of them to a solid ground plane under the module.
+* There are eight GND pins (5, 24, 57, 74, 90, 93, 96 and 97) and one analog ground pin, **GNDA** (pin 49).
+* **GNDA** is the return for the module's analog circuits: the ADS124S08's AVSS, REFCOM and AINCOM, and the +5VA regulator. Pin 49 is where analog return currents from the carrier should enter: loads on +5VA, sensors and their excitation, ADC input filters and any external reference.
+* **GND and GNDA are tied together on the module,** which has one shared ground plane. The module's netlist and PCB therefore call pin 49 GND. The carrier can use either of two layouts:
+  * **One ground plane (recommended for most carriers):** connect all ground pins, including 49, to one solid plane under the module. Group the analog circuits near pins 41–56, and keep digital traces and large switching return currents out of that area. Analog return current then spreads over all the ground pins instead of passing through pin 49 alone.
+  * **A separate GNDA area,** connected only to pin 49. This suits a small analog section right at the module edge, or a carrier with large switching return currents (heater, pump or valve drivers) that placement can't keep away from the analog circuits. All analog return current then flows through the single pin 49 castellation.
+* **Don't combine the two.** A separate GNDA area that is also tied to GND elsewhere on the carrier, for example at the power input, forms a ground loop through the module.
 * The power group (pins 76–86) has only one adjacent ground pad (pin 74). Give the return current a low-impedance path on the carrier, with a solid plane near those pins.
 * Pins 75, 78, 81 and 84 are unconnected (spacers between the power rails).
 
@@ -38,7 +43,7 @@ Things a carrier-board designer or firmware author needs to know when using the 
 ## Shared buses exposed to the carrier
 
 * **SPI** (INT_SPI_MOSI/SCLK/MISO on pins 60/59/58) is shared with the settings flash (U2) and the ADS124S08. Both have their own chip selects with 10 kΩ pull-ups. Carrier SPI devices need a chip select from one of the exported GPIOs and must tri-state MISO when not selected.
-* **I2C** (QWIIC_SDA/SCL on pins 34/33) is the RP2350's I2C1 bus. The FDC1004 sits on it at the fixed 7-bit address **0x50**, so carrier devices must avoid that address. The module has 10 kΩ pull-ups to 3.3 V. For 400 kHz operation or long cables, add stronger pull-ups on the carrier.
+* **I2C** (I2C1_SDA/SCL on pins 34/33) is the RP2350's I2C1 bus. The FDC1004 sits on it at the fixed 7-bit address **0x50**, so carrier devices must avoid that address. The module has 10 kΩ pull-ups to 3.3 V. For 400 kHz operation or long cables, add stronger pull-ups on the carrier.
 
 ## USB hub (FE1.1s)
 
@@ -56,11 +61,12 @@ Things a carrier-board designer or firmware author needs to know when using the 
 
 ## ADC (ADS124S08)
 
-* AVDD is +5VA (5.0 V). **AINCOM is tied to GND on the module**, so single-ended measurements are referenced to ground. Differential measurements between any two inputs also work.
-* **References:** the internal 2.5 V reference is decoupled on the module but not brought out. External reference 0 is on pins 51 (REFP0) / 52 (REFN0); AIN6/AIN7 double as reference 1. Leave REFN0 floating or tied to GND when unused, since the internal low-side switch can short it to ground.
+* AVDD is +5VA (5.0 V) and AVSS is GNDA. **AINCOM is tied to GNDA on the module**, so single-ended measurements are referenced to analog ground. Differential measurements between any two inputs also work.
+* **For precision measurements, measure differentially or ratiometrically.** Return current in the ground plane, on the carrier or the module, puts a small voltage between a sensor's ground and AINCOM, which single-ended readings see as an offset. Wire each sensor's low side to its own AIN pin instead of relying on AINCOM. For resistive sensors (RTDs, thermistors, bridges), derive the reference from the same excitation that drives the sensor, through REFP0/REFN0 or AIN6/AIN7: for example, a reference resistor in the excitation-current path, or the bridge supply. Excitation drift and ground offsets then cancel.
+* **References:** the internal 2.5 V reference is decoupled on the module but not brought out. External reference 0 is on pins 51 (REFP0) / 52 (REFN0); AIN6/AIN7 double as reference 1. Leave REFN0 floating or tied to GNDA when unused, since the internal low-side switch can short it to AVSS (GNDA).
 * AIN0–7 are on pins 41–48 (AINn on pin 41 + n). AIN8–11 are on pins 53–56 and **double as the ADC's GPIO0–3**, whose logic levels follow AVDD (5 V). Don't connect them to 3.3 V logic. Don't leave them floating if they're configured as digital inputs.
 * **No input filtering or ESD protection on the module.** TI recommends an RC filter on each input and a C0G capacitor across each differential pair, close to the ADC. Put these on the carrier, plus ESD protection for off-board sensors.
-* START/SYNC and CLK are tied to ground on the module. Conversions are started and stopped by SPI commands only, and the ADC always runs from its internal 4.096 MHz oscillator.
+* START/SYNC and CLK are tied to GND on the module. Conversions are started and stopped by SPI commands only, and the ADC always runs from its internal 4.096 MHz oscillator.
 * On the carrier, route the analog inputs away from digital lines, over unbroken ground.
 
 ## Capacitive sensing (FDC1004)
@@ -107,8 +113,8 @@ For carrier boards, use the `APEC_SoM` symbol in `APEC_SoM.kicad_sym` and one of
 | 13 | RP_GP15 | 30 | RP_GP42 |
 | 14 | RP_GP14 | 31 | RP_GP41 |
 | 15 | RP_GP13 | 32 | RP_GP40 |
-| 16 | RP_GP12 | 33 | QWIIC_SCL |
-| 17 | RP_GP7 | 34 | QWIIC_SDA |
+| 16 | RP_GP12 | 33 | I2C1_SCL |
+| 17 | RP_GP7 | 34 | I2C1_SDA |
 
 ### Pins 35–52: Right edge, top to bottom (J7)
 
@@ -119,7 +125,7 @@ For carrier boards, use the `APEC_SoM` symbol in `APEC_SoM.kicad_sym` and one of
 | 37 | CIN3 | 46 | ADC_AIN5 |
 | 38 | CIN2 | 47 | ADC_AIN6 |
 | 39 | CIN1 | 48 | ADC_AIN7 |
-| 40 | C_SHIELD_1 (FDC1004 SHLD1) | 49 | GND |
+| 40 | C_SHIELD_1 (FDC1004 SHLD1) | 49 | GNDA (analog ground) |
 | 41 | ADC_AIN0 | 50 | +5VA |
 | 42 | ADC_AIN1 | 51 | ADC_REFP0 |
 | 43 | ADC_AIN2 | 52 | ADC_REFN0 |
