@@ -21,7 +21,7 @@
 * Added 100K pull-downs on FE1.1s DRV (R20) and VBUSM (R6), so charging-hub mode and upstream VBUS sense don't float
 * ESP32-C6 GPIO8 strap is now pulled up through 10K (R22) instead of being tied directly to 3V3
 * Changed R8 from 12K to 12.1K, lowering the 6V rail from 5.8 V to 5.76 V
-  * Keeps the worst-case rail within the NCP59800's 6.0 V input limit
+  * Keeps the worst-case rail within the NCP59800's 6.0 V operating input limit (absolute maximum is still 6.5V)
 * Changed Y3 (USB hub crystal) to a 12 MHz, 20 pF, 50 Ω max part (Yajingxin TAXM12M4RLBDDT2T), to meet the FE1.1s crystal requirements (16-20 pF, 50 Ω max ESR)
   * Footprint changed from 2.5x2.0 mm to 3.2x2.5 mm
 * Corrected the U13 MP field to ADM7170ACPZ-5.0-R7
